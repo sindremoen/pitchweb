@@ -1,0 +1,161 @@
+
+
+
+@font-face {
+    font-family: ABC Diatype;
+    src: url(fonts/ABC\ Diatype\ Regular.ttf);
+  }
+
+
+@font-face {
+    font-family: ABC Gaysir;
+    src: url(fonts/ABCGaisyr-Light-Trial.otf);
+  }
+
+  @font-face {
+    font-family: ABC Rounded;
+    src: url(fonts/ABCDiatypeRoundedMono-Regular-Trial.otf);
+  }
+
+  @font-face {
+    font-family: ABC Favorit;
+    src: url(fonts/ABCFavorit-Light-Trial.otf);
+  }
+
+body {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: ABC Diatype;
+    background-color: white;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+.navigation {
+    font-family: ABC Rounded;
+    font-size: 15px;
+    display: inline;
+    justify-content: space-between;
+}
+
+.kadens-el {
+    margin-right: 150px;
+}
+
+.pitch-el {
+    margin-right: 150px;
+}
+.info-container {
+    margin-top: 70px;
+    font-size: 50px;
+    font-family: ABC Gaysir;
+}
+
+.project-list {
+    margin-top: 100px;
+    font-size: 50px;
+}
+
+.project {
+    background-color:white;
+    border: 1.5px solid;
+    border-radius: 200px;
+    padding: 15px;
+}
+
+.logo-img {
+    width: 300px;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    gap: 70px;
+
+}
+
+.left-column, .right-column {
+    flex-basis: 30%; /* Deler i halv */
+    flex-grow: 1; /* Dynamisk */
+    flex-shrink: 0; /* Kan ikke krympe */
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+.right-column {
+    overflow-wrap: break-word; /* Ensure long words wrap */
+    word-break: break-word; /* Force long words to break */
+}
+
+.project-name {
+    display: inline-block;
+    border: 1px solid;
+    border-radius: 200px;
+    padding: 10px;
+    background-color: white;
+    font-size: 50px;
+}
+
+.info-text {
+    margin-top: 10px;
+    font-size: 50px;
+    font-family: ABC Gaysir;
+}
+
+.background-text {
+    font-family: ABC Favorit;
+    font-size: 20px;
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.bakgrunn-tekst {
+    background-color: rgb(246, 246, 246);
+    border-radius: 20px;
+    font-family: ABC Favorit;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.diabetes-illustration {
+    width: 260px;
+    display: inline-block;
+}
+
+
+.bottom-navigation {
+    position: fixed; 
+    display: flex;
+    justify-content: space-around;
+    bottom: 0; 
+    left: 0;
+    width: 100%; 
+    text-align: center; 
+    padding: 10px 0;
+    z-index: 1000;
+    /* background-color: rgb(247, 247, 247); */
+    border-radius: 200px;
+
+}
+
+.bottom-navigation a {
+   padding: 7px;
+}
+
+.bottom-navigation a:hover {
+
+  background-color:rgb(93, 93, 93);
+  color: white;
+  border-radius: 200px;
+
+
+}
